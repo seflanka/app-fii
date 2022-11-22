@@ -1,0 +1,26 @@
+
+.InputCadastro {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    
+}
+
+.InputCadastro label{
+    margin-bottom: .3em;
+    font-weight: bold;
+    font-size: .7em;
+    margin: 0px 15px 3px 15px;
+}
+
+.InputCadastro input {
+    padding: .6em;
+    border: 1px solid #1d4851;
+    border-radius: 5px;
+    background: transparent;
+    margin: 0px 15px 0px 15px;
+    outline: 0;
+    box-shadow:none;
+    font-size: 12px;
+}
+

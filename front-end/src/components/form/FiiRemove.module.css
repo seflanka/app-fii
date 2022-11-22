@@ -1,0 +1,52 @@
+.form_fii_container {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.form_fii_container_submit {
+    background-color: #299ebf;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+.form_fii_container_submit:hover {
+    background-color: #299ebf;
+    width: 102px;
+    height: 42px;
+    border-radius: 25px;
+    border: none;
+    box-shadow: #299ebf 0px 5px 15px;
+}
+
+
+.form_fii_container button {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    right: 55px;
+    cursor: pointer;
+    top: 20px;
+}
+
+
+
+.form_fii_button_lixeira{
+    display: block;
+    position: fixed;
+    width: 25px;
+
+}
+
+.form_fii_button_lixeira:hover{
+    display: block;
+    position: fixed;
+    width: 26px;
+
+}

@@ -1,0 +1,58 @@
+.message {
+    display: flex;
+    position: absolute;
+    min-width: 190px;
+    max-width: 400px;
+    padding: 3px;
+    border: 1px solid #000;
+    top: 65px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.message h4 {
+    margin: 0 auto;
+
+}
+
+.success {
+    color: white;
+    background-color: #3caf47;
+}
+
+.error {
+    color: white;
+    background-color: #f44336;
+}
+
+@media screen and (max-width: 480px) {
+
+.message {
+    position: absolute;
+    min-width: 190px;
+    max-width: 400px;
+    padding: 3px;
+    border: 1px solid #000;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+.message_background{
+    background-color: rgba(71, 68, 68, 0.5);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+}

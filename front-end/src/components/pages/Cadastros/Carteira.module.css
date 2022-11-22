@@ -1,0 +1,391 @@
+
+/* INICIO BLOCO DE TOTAL APLICADO  E RENTABILIDADE*/
+
+.responsive_container_title_master {
+    display: flex;
+    position: relative;
+    width: 300px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.content_title_master_carteira{
+    display: flex;
+    min-width: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+}
+
+.title_master {
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #299ebf;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.title_master img {
+    width: 35px;
+    height: 40px;
+    display: flex;
+    position: relative;
+    margin: 0;
+    max-width: 35px;
+    padding: 1px;
+}
+
+.title_master p {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 0;
+}
+
+.title_master_p {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-left: 15px;
+}
+
+.title_master_p h1 {
+    color: #3d3b3b;
+    font-size: 16px;
+    margin-left: 0;
+}
+
+.title_master_p p {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 2px;
+}
+/* FINAL BLOCO DE TOTAL APLICADO TENDIMENTO E RENTABILIDADE*/
+
+
+
+/*CONTENT DOS ITENS QUE SÃO CADSATRADOS*/
+.container_master_carteira{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 90%;
+}
+.content_itens {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.content_itens p {
+    color: black;
+}
+
+.display_block{
+    position: relative;
+    max-width: 100%;
+}
+
+
+.display_block p {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.content_iten {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 55px;
+    margin: 10px 10px 10px 10px;
+    max-width: 250px;
+    border-radius: 5px;
+    padding: 4px;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    border: 1px solid rgb(85, 84, 84);
+    cursor: pointer;  
+    flex-basis: 100%;
+    justify-content: flex-start;
+}
+
+.iten img {
+    width: 25px;
+}
+
+.iten img:hover {
+    box-shadow: rgba(17, 128, 231, 0.8) 0px 4px 12px;
+}
+
+.iten{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;  
+    list-style: none;
+    min-width: 10%;
+}
+
+
+.contents_title{
+    display: flex;
+    position: relative;
+    font-size: 10px;
+    text-align: center;
+    align-items: center;
+    margin: 5px 2px 5px 2px;
+}
+
+.contents_iten{
+    display: flex;
+    position: relative;
+    font-size: 11px;
+    text-align: center;
+    align-items: center;
+    margin: 5px 2px 5px 2px;
+}
+
+@media screen and (max-width: 480px) {
+
+
+/* INICIO BLOCO DE TOTAL APLICADO TENDIMENTO E RENTABILIDADE*/
+
+.responsive_container_title_master {
+    display: flex;
+    position: relative;
+    min-width: 100%;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.content_title_master_carteira{
+    display: flex;
+    width: 100%;
+
+}
+
+
+/* FINAL BLOCO DE TOTAL APLICADO TENDIMENTO E RENTABILIDADE*/
+
+
+.container_master_carteira {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.content_user {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.content_user h1 {
+    position: static;
+    font-size: 16px;
+    margin: 8px 0px 3px 20px;
+    font-weight: bold;
+}
+
+.content_user p {
+    font-size: 12px;
+    color: whitesmoke;
+}
+
+.content_user {
+    display: flex;
+    position: absolute;
+}
+
+/* FINAL DIV DO USUARIO LOGADO */
+
+/*CONTENT RENTABILIDADE, VL.APLICADO*/
+.container {
+    display: block;
+    flex-direction: row;
+    max-width: 100%;
+    min-width: 20%;
+    max-height: 100%;
+    min-height: 100vh;
+}
+
+
+.content_title_master{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 5px 0px 5px;
+    padding: 5px 0px 0px 0px ;
+    width: 100%;
+}
+
+.content_title_master p {
+    color: black;
+}
+
+.title_master {
+    display: flex;
+    border-radius: 10px;
+    width: 100%;
+    margin: 0px 12px 0px 12px;
+    padding: 8px;
+    background-color: #299ebf;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+    align-items: center;
+    justify-content: start;
+    background-color: #299ebf;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.title_master img {
+    width: 30px;
+    height: 35px;
+}
+
+.title_master p {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 0;
+}
+
+.title_master_p {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-left: 15px;
+}
+
+.title_master_p h1 {
+    color: #3d3b3b;
+    font-size: 12px;
+    margin-left: 0;
+    margin-bottom: 2px;
+}
+
+.title_master_p p {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+
+.title_master img {
+    display: flex;
+    position: relative;
+    margin: 0;
+    max-width: 35px;
+    padding: 1px;
+}
+
+.botao_cadastro_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 80px;
+    
+}
+
+
+
+/*CONTENT DOS ITENS QUE SÃO CADSATRADOS*/
+.content_itens {
+    display: block;
+    align-items: center;
+    width: 92%;
+    margin-top: 0;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 100%;
+    padding-bottom: 180px;
+}
+.content_itens p {
+    color: black;
+}
+
+.display_block p {
+    display: block;
+    box-sizing: border-box;
+}
+
+
+.content_iten {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 55px;
+    margin-top: 15px;
+    min-width: 10%;
+    max-width: 100%;
+    border-radius: 8px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    text-align: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    border: 1px solid rgb(85, 84, 84);
+    cursor: pointer;  
+}
+
+.iten img {
+    width: 25px;
+}
+
+.iten img:hover {
+    box-shadow: rgba(17, 128, 231, 0.8) 0px 4px 12px;
+}
+
+.iten{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;  
+    list-style: none;
+}
+
+.contents_title{
+    display: flex;
+    position: relative;
+    font-size: 10px;
+    text-align: center;
+    align-items: center;
+    margin: 5px 2px 5px 2px;
+}
+
+.contents_iten{
+    display: flex;
+    position: relative;
+    font-size: 11px;
+    text-align: center;
+    align-items: center;
+    margin: 5px 2px 5px 2px;
+}
+
+}

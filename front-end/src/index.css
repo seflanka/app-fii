@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  font-family: helvetica;
+}
+
+body {
+  background-color: #f4f4f4;
+  display: block;
+}
+
+section {
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+
+/*--------------INICIO CODIGOS PARA DISPOSITIVOS MOVEIS SMARTPHONE------------------*/
+
+@media screen and (max-width: 480px) {
+
+* {
+  padding: 0;
+  margin: 0 auto;
+  font-family: helvetica;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+
+section {
+  margin: 0 auto;
+}
+}

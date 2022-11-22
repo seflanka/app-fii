@@ -1,0 +1,120 @@
+.form_container {
+    max-width: 250px;
+    margin: 0 auto;
+    border-radius: 15px;
+    flex-direction: row;
+    padding-top: 30%;
+
+}
+
+
+.form_container h1, p {
+    color: white;
+    padding: 0px 0px 0px 0px;
+}
+
+.form_container input[type='submit'] {
+    border-radius: 15px;
+    color: white;
+    border: none;
+    max-width: 90px;
+    min-height: 2em;
+    width: 60%;
+    margin: 0px 28% 10px 28%;
+    display: inline;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #1d4851;
+}
+
+.form_container input[type='submit']:hover {
+    cursor: pointer;
+    color: rgb(231, 147, 20);
+}
+
+.form_container section {
+    background-color: #0b3a53;
+    background: transparent;
+}
+
+.form_container div, h2, form  {
+    background-color: #9ab5b6;
+
+}
+
+.form_container  div {
+    z-index: 1;
+}
+
+.form_container  div, h2, form   {
+    border-radius: 5%;
+
+}
+
+
+
+.form_container   h2 {
+    text-align:  center;
+    margin-top: 12vh;
+    margin-bottom: 0px;
+    padding: 9px;
+    font-size: 18px;
+    background-color: transparent;
+    color: #0b3a53;
+}
+
+@media screen and (max-width: 480px) {
+
+.form_container {
+    max-width: 200px;
+    margin: 0 auto;
+    border-radius: 15px;
+    flex-direction: row;
+
+}
+
+
+
+.form_container input[type='submit'] {
+    border-radius: 15px;
+    color: white;
+    border: none;
+    max-width: 90px;
+    min-height: 2em;
+    width: 60%;
+    margin: 0px 28% 10px 28%;
+    display: inline;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.form_container section {
+    background-color: #0b3a53;
+    background: transparent;
+}
+
+.form_container div, h2, form  {
+    background-color: #9ab5b6;
+
+}
+
+.form_container  div, h2, form   {
+    border-radius: 5%;
+
+}
+
+
+
+.form_container   h2 {
+    text-align:  center;
+    margin-top: 12vh;
+    margin-bottom: 0px;
+    padding: 9px;
+    font-size: 18px;
+    background-color: transparent;
+    color: #0b3a53;
+}
+}

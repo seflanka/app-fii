@@ -1,0 +1,26 @@
+
+
+.container {
+    display: flex;
+    position: relative;
+    min-width: 100%;
+    min-height: 82%;
+    top: 50px;    
+    margin: 0 auto;
+
+}
+
+
+
+/*--------------INICIO CODIGOS PARA DISPOSITIVOS MOVEIS SMARTPHONE------------------*/
+
+@media screen and (max-width: 480px) {
+.container {
+    display: block;
+    position: absolute;
+    min-width: 100%;
+    min-height: 82%;
+    top: 40px;
+    margin: 0 auto;
+}
+}

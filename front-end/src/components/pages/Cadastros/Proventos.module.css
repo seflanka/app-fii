@@ -1,0 +1,320 @@
+.container_proventos_master{
+    margin: 5px 12px 8px 12px;
+    height: 100%;
+}
+
+.container_proventos_content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_proventos_display{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    flex-direction: row;
+    margin: 5px 0px 10px 0px;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 40px;
+    border-radius: 9px;
+    background-color: #299ebf;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+}
+
+.content_proventos_display img {
+    position: relative;
+    width: 35px;
+    margin: 0px 15px 0px 5px;
+}
+
+.content_itens_title{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+}
+
+.content_proventos_display{
+    position: relative;
+
+}
+
+.p_proventos_title{
+    display: block;
+    position: relative;
+    justify-content: flex-start;
+    position: relative;
+    font-size: 12px;
+    font-weight: bold;
+    color: #3d3b3b;
+
+}
+
+.p_proventos_recebido{
+    margin: 3px 0px 0px 0px;
+    position: relative;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.content_itens_fundos{
+    display: flex;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 25px 0px 0px 0px;
+    width: 90%;
+}
+
+
+.iten_fundo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0.1px groove #717579;
+    margin: 10px;
+    border-radius: 5px;
+    width: 90px;
+    height: 90px;
+    background-color: #ff914d;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.iten_fundo p {
+    margin: 0px 0px 2px 0px;
+    margin-left: auto;    
+    margin-right: auto;
+
+}
+
+.iten_fundo_p_codigo{
+    margin-top: 3px!important;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+
+.iten_fundo_p_preco{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.iten_fundo_p_data{
+    font-size: 9px;
+    color: #545454;
+}
+
+.iten_fundo_p_dias{
+    font-size: 9px;
+    border: 1px solid #545454;
+    width: 50px;
+    padding: 0.5px;
+    font-weight: bold;
+    background-color: white;
+    color: #ff914d;
+    border-radius: 25px;    
+}
+
+.iten_fundo_gren{
+    display: flex;
+    flex-direction: column;
+    margin: 4px;
+    border: 0.1px groove #717579;
+    border-radius: 5px;
+    width: 21%;
+    height: 21%;
+    background-color: #ff914d;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: #469b42;
+}
+
+.iten_fundo_gren p {
+    margin: 0px 0px 2px 0px;
+    margin-left: auto;    
+    margin-right: auto;
+}
+
+.iten_fundo_p_dias_gren{
+    font-size: 10px;
+    border: 1px solid #545454;
+    width: 55px;
+    padding: 0.5px;
+    font-weight: bold;
+    background-color: white;
+    color: #469b42;
+    border-radius: 5px;   
+}
+
+
+
+
+
+/*--------------INICIO CODIGOS PARA DISPOSITIVOS MOVEIS SMARTPHONE------------------*/
+
+@media screen and (max-width: 480px) {
+    
+.container_proventos_master{
+    margin: 5px 12px 8px 12px;
+    height: 100%;
+}
+
+.container_proventos_content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.content_proventos_display{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    flex-direction: row;
+    margin: 5px 0px 10px 0px;
+    width: 100%;
+    border-radius: 9px;
+    background-color: #299ebf;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 8px 0px 8px 0px;
+}
+
+.content_proventos_display img {
+    position: relative;
+    width: 35px;
+    margin: 0px 15px 0px 5px;
+}
+
+.content_itens_title{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+}
+
+.content_proventos_display{
+    position: relative;
+
+}
+
+.p_proventos_title{
+    display: block;
+    position: relative;
+    justify-content: flex-start;
+    position: relative;
+    font-size: 12px;
+    font-weight: bold;
+    color: #3d3b3b;
+
+}
+
+.p_proventos_recebido{
+    margin: 3px 0px 0px 0px;
+    position: relative;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.content_itens_fundos{
+    display: flex;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    width: 100%;
+}
+
+
+.iten_fundo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0.1px groove #717579;
+    margin: 4px;
+    border-radius: 5px;
+    width: 21.5%;
+    height: 21%;
+    background-color: #ff914d;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.iten_fundo_gren{
+    display: flex;
+    flex-direction: column;
+    margin: 4px;
+    border: 0.1px groove #717579;
+    border-radius: 5px;
+    width: 20%;
+    height: 21%;
+    background-color: #ff914d;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: #469b42;
+}
+
+.iten_fundo p {
+    margin: 0px 0px 2px 0px;
+    margin-left: auto;    
+    margin-right: auto;
+
+}
+
+.iten_fundo_p_codigo{
+    margin-top: 3px!important;
+    font-size: 11px;
+    font-weight: bold;
+    color: black;
+}
+
+.iten_fundo_p_preco{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.iten_fundo_p_data{
+    font-size: 9px;
+    color: #545454;
+}
+
+.iten_fundo_p_dias{
+    font-size: 9px;
+    border: 1px solid #545454;
+    width: 50px;
+    padding: 0.5px;
+    font-weight: bold;
+    background-color: white;
+    color: #ff914d;
+    border-radius: 25px;    
+}
+
+
+
+.iten_fundo_gren p {
+    margin: 0px 0px 2px 0px;
+    margin-left: auto;    
+    margin-right: auto;
+}
+
+.iten_fundo_p_dias_gren{
+    font-size: 10px;
+    border: 1px solid #545454;
+    width: 55px;
+    padding: 0.5px;
+    font-weight: bold;
+    background-color: white;
+    color: #469b42;
+    border-radius: 5px;   
+}
+}
