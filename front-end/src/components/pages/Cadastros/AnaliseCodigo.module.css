@@ -153,16 +153,38 @@ td {
 
 .content_title_analise img {
     display: flex;
-    position: absolute;
+    position: static;
+    justify-content: space-around;
     width: 35px;
     height: 35px;
-    left: 12px;
-    
+    left: 10px;
+    margin: 0px 10px 0px 10px;
+}
+
+.container_master_analise_Link{
+    margin: 0px 0px 0px 0px ;
+}
+
+.content_title_analise Link {
+    margin: 0px!important;
+
+}
+
+.container_master_analise_imgBack:hover{
+    cursor: pointer;
+    width: 35px;
+    height: 33px;
+    border-radius: 50%;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.content_title_analise h3{
+    color: #fff;
+    font-weight: 500;
 }
 
 .content_title_analise_display {
     display: flex;
-    position: relative;
     flex-direction: row;
     align-items: center;
     text-align: center;
@@ -185,11 +207,10 @@ td {
     position: relative;
     align-items: center;
     justify-content: flex-end;
+    padding-right: 20px;
     width: 50px;
     height: 30px;
 }
-
-
 .content_title_analise_display button {
     display: flex;
     align-items: flex-start;
@@ -226,7 +247,7 @@ td {
     border: 1px solid #1d4851;
     background-color: #fff;
     border-radius: 5px;
-    margin: 0px 0px 0px 60px;
+    margin: 0px 0px 0px 26px;
     outline: 0;
     box-shadow:none;
     font-size: 12px;
@@ -247,13 +268,9 @@ td {
 .searchbar {
     display: flex;
     flex-direction: row;
-    position: absolute;
     flex-wrap: wrap ;
-    width: 300px;
-    height: 100px;
-    margin-top: 160px;
+    margin-top: 10px;
     border: 0 auto;
-
 }
 
 .searchbar_item {
@@ -263,12 +280,8 @@ td {
     min-width: 100px;
     max-width: 100px;
     border-radius: 10px;
-    margin-top: 15px;
 }
 
-.searchbar_item Link {
-    
-}
 
 .searchbar_item button {
     border: 0 auto;

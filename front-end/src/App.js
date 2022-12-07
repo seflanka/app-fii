@@ -18,6 +18,7 @@ import Proventos from './components/pages/Cadastros/Proventos'
 import Carteira from './components/pages/Cadastros/Carteira'
 import Remove from './components/pages/Cadastros/Remove'
 import Analise from './components/pages/Cadastros/Analise'
+import AnaliseCodigo from './components/pages/Cadastros/AnaliseCodigo'
 
 
 // Context
@@ -33,7 +34,7 @@ function App() {
         <Routes>
           <Route path='/login' element={<Login/>} />
           <Route path='/Analise' element={<Analise />}/>
-          <Route path='/:id' element={<Remove />}/>
+          <Route path='/analise/:codigo' element={<AnaliseCodigo />}/>
           <Route path='/Cadastro' element={<Cadastro />}/>
           <Route path='/Proventos' element={<Proventos />}/>
           <Route path='/Carteira' element={<Carteira />}/>

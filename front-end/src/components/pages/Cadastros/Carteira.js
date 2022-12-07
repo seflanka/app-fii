@@ -65,7 +65,7 @@ function Carteira() {
                         </div>
                         </div>
                         <div className={styles.iten}>
-                            <Link to={`/${fii._id}`}>
+                            <Link to={`/remove/${fii._id}`}>
                                 <img src={imgEditar} alt="Editar" />
                             </Link>
                         </div>
