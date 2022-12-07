@@ -5,9 +5,9 @@ import InputCadastro from './InputCadastro'
 
 import api from '../../utils/api';
 
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams,  } from 'react-router-dom';
 
 // Hoks inernos 
 import useFlashMessage from '../../hooks/useFlashMessage';
@@ -18,9 +18,9 @@ function FiiRemove({handleSubmit, fiiData}) {
     const { setFlashMessage } = useFlashMessage();
     const { id } = useParams();
     const [ token ] = useState(localStorage.getItem('token')  || '' );
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
-    useEffect(() => {
+    useState(() => {
         api.get(`/cadastro/${id}`)
         .then((response) => {
             setFii(response.data.fii)
@@ -36,6 +36,7 @@ function FiiRemove({handleSubmit, fiiData}) {
     function submit(e) {
         e.preventDefault();
         handleSubmit(fii);
+        setFii(fii.value = '')
     };
 
 
@@ -69,10 +70,6 @@ function FiiRemove({handleSubmit, fiiData}) {
             localStorage.setItem('totalproventos', JSON.stringify(response.data.totalproventos))
         })
         
-        if(msgType !== 'error') {
-            navigate('/carteira');
-            return;
-        };
     }
 
     return (

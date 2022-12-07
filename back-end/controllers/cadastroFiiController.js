@@ -5,12 +5,11 @@ const cadastroFiiModels = require('../models/cadastroFiiModels');
 const getToken = require('../helpers/get-token');
 const getUserByToken = require('../helpers/get-user-by-token');
 const ObjectId = require('mongoose').Types.ObjectId;
-const createUserToken = require('../helpers/create-user-token');
+
 
 
 
 module.exports = class cadastroFiiController{
-    
     static async createFii( req, res ) {
         const  { codigo, quantidade } = req.body;
 
@@ -18,6 +17,10 @@ module.exports = class cadastroFiiController{
 
         if (!fii) {
             res.status(404).json({message: 'Fii não encontrado!'});
+            return;
+        };
+        if (!quantidade) {
+            res.status(404).json({message: 'Insira a quantidade de cotas!'});
             return;
         };
 
@@ -195,6 +198,16 @@ module.exports = class cadastroFiiController{
 
         res.status(200).json({ 
             fii: fii,
-         });
+        });
+        
     };
+
+    static async getCodigos(req, res) {
+        const codigos = require('../db/arrayCodigos')
+
+        res.status(200).json({
+            codigos : codigos
+        })
+
+    }
 };

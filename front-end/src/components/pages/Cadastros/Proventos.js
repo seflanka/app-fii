@@ -2,14 +2,14 @@ import styles from  './Proventos.module.css';
 import imgProventos from '../../../assets/img/proventos.png';
 
 // import api from '../../../utils/api'
-import { useState, useEffect }  from 'react'
+import { useState }  from 'react'
 
 function Proventos() {
     // const [ token ] = useState(localStorage.getItem('token') || '');
     const [cadastroFii, setCadastroFii]  = useState({});
     const [ totalproventos, setTotalproventos ] = useState();
 
-    useEffect(() => {
+    useState(() => {
         const cadastroFii = JSON.parse(localStorage.getItem('cadastroFii'));
         const totalproventos = JSON.parse(localStorage.getItem('totalproventos'));
         if(cadastroFii) {

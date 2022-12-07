@@ -1,8 +1,7 @@
 import styles from './Cadastro.module.css';
 import api from '../../../utils/api';
 import { useState } from 'react'
-
-import { useNavigate  } from "react-router-dom";
+// import { useNavigate  } from "react-router-dom";
 
 // Componentes
 import FiiForm from '../../form/FiiForm';
@@ -13,7 +12,7 @@ import useFlashMessage from '../../../hooks/useFlashMessage'
 function Cadastro() {
     const [ token ] = useState(localStorage.getItem('token')  || '' );
     const { setFlashMessage } = useFlashMessage();
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
 
     async function registerFii(fii) {
@@ -51,12 +50,8 @@ function Cadastro() {
   
 
         setFlashMessage(data.message, msgType, );
+        
 
-
-        if(msgType !== 'error') {
-            navigate("/carteira");
-            return
-        };
     };
 
     return (

@@ -25,7 +25,6 @@ export default function useAuth() {
     async function authUser(data) {
 
         setAuthenticated(true)
-
         localStorage.setItem('token', JSON.stringify(data.token))
         localStorage.setItem('cadastroFii', JSON.stringify(data.cadastroFii))
         localStorage.setItem('totalInvestidoCarteira', JSON.stringify(data.totalInvestidoCarteira))
@@ -34,6 +33,7 @@ export default function useAuth() {
 
         navigate('/')
     }
+
 
     async function register(user) {
         

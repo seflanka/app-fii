@@ -120,7 +120,7 @@ module.exports = class dbCentralContoller {
 
     static async getFiiByName(req, res) {
 
-        const codigo = req.body
+        const codigo  = req.params.codigo;
         
         const fii = await dbCentralModels.findOne({codigo: codigo});
 

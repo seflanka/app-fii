@@ -6,10 +6,12 @@
     margin-top: 10px;
 }
 
+
 .form_fii_container_submit {
     background-color: #299ebf;
     width: 100px;
     height: 40px;
+    margin-top: 10px;
     border-radius: 25px;
     border: none;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -24,3 +26,105 @@
     border: none;
     box-shadow: #299ebf 0px 5px 15px;
 }
+
+/* ESTILOS DO INPUT  */
+.form_control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5em;
+    width: 64%;
+}
+
+.form_control h2 {
+    background-color: #9ab5b6;
+}
+
+.form_control label {
+    margin-bottom: .3em;
+    font-weight: bold;
+    font-size: .7em;
+    background: transparent;
+    margin: 0px 15px 3px 2px;
+}
+
+.form_control input {
+    padding: .6em;
+    border: 1px solid #1d4851;
+    border-radius: 5px;
+    background: transparent;
+    margin: 0px 0px 10px 0px;
+    width: 90%;
+    outline: 0;
+    box-shadow:none;
+    font-size: 12px;
+}
+
+.form_control input::placeholder {
+    color: #7b7b7b;
+}
+
+
+.searchbar {
+    position: fixed;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 59px 0px 0px 0px;
+    max-height: 80px;
+    width: 64%;
+    height: 65px;
+    overflow: hidden;
+    overflow-y: auto;
+    align-items: flex-start;
+    z-index: 0;
+    left: 18%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+
+.searchbar p{
+    color: black;
+    font-size: 14px;
+    padding: 5px;
+    padding-left: 12px;
+}
+
+.searchbar::-webkit-scrollbar {
+    display: none;
+}
+
+.searchbar_item{
+    cursor: pointer;
+}
+
+.searchbar_item p:hover{
+    color: #2e97b4;
+    background-color: rgba(221, 219, 219, 0.801);
+}
+
+
+/* INPUT DO CODIGO */
+
+.input_upercase{
+    padding: .6em;
+    border: 1px solid #1d4851;
+    border-radius: 5px;
+    background: transparent;
+    margin: 0px 26px 0px 26px;
+    outline: 0;
+    box-shadow:none;
+    font-size: 12px;
+    text-transform: uppercase;         
+}
+
+.label_input_codigo{
+    margin-bottom: .3em;
+    font-weight: bold;
+    font-size: .7em;
+    margin: 0px 15px 3px 26px;
+}
+
+
+
+
+
+

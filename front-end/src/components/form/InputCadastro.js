@@ -8,6 +8,9 @@ function InputCadastro({
     placeholder,
     handleOnChange,
     value,
+    autoComplete,
+    onClick
+    
 }) {
     return (
         <div className={styles.InputCadastro}>
@@ -19,6 +22,9 @@ function InputCadastro({
                 placeholder={placeholder} 
                 onChange={handleOnChange}
                 value={value}
+                autoComplete={autoComplete}
+                onClick={onClick}
+
             />
         </div>
     )

@@ -7,7 +7,8 @@ function Input({
     name, 
     placeholder, 
     handleOnChange, 
-    value
+    value,
+
 }) {
     return (
         <div className={styles.form_control}>

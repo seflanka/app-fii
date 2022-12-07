@@ -1,12 +1,16 @@
+import styles from './Home.module.css'
+import imgHome from '../../assets/img/logoHome.png'
 
 function Home() {
 
 
     return (
         <section>
-            <br />
-            <h1></h1>
 
+            
+            <img src={imgHome} alt=""  width='100%'/>
+            
+            
         </section>
     )
 }

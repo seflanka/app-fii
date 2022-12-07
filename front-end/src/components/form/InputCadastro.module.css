@@ -2,7 +2,7 @@
 .InputCadastro {
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin: 10px 10px 3px 10px;
     
 }
 
@@ -22,5 +22,6 @@
     outline: 0;
     box-shadow:none;
     font-size: 12px;
+    text-transform: uppercase;
 }
 

@@ -8,8 +8,8 @@ const app = express()
 app.use(express.json())
 
 
-//  app.use(cors({ credentials: true, origin: 'http://localhost:3000'}))
-app.use(cors({ credentials: true, origin: 'http://ec2-54-208-72-108.compute-1.amazonaws.com:3000'}))
+app.use(cors({ credentials: true, origin: 'http://localhost:3000'}))
+// app.use(cors({ credentials: true, origin: 'http://ec2-54-208-72-108.compute-1.amazonaws.com:3000'}))
 
 
 app.use(express.static('public'));
