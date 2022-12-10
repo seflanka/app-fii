@@ -25,7 +25,7 @@ function Login() {
     return (
         <section className={styles.form_container}>
             <div>
-                <form onSubmit={handleSubmit} className="form-register">
+                <form onSubmit={handleSubmit} className={styles.content_login}>
                 <h2>Login</h2>
                     <Input 
                         text="Email"
@@ -43,9 +43,8 @@ function Login() {
                     />
                     <input type="submit" value="Entrar"/>
                 </form>
-
             </div>
-            <br />
+
             <h5>Não possui conta? <Link to='/register'>Registrar</Link></h5>
         </section>
     )

@@ -3,7 +3,7 @@
     margin: 0 auto;
     border-radius: 15px;
     flex-direction: row;
-    padding-top: 30%;
+    padding-top: 12%;
 
 }
 
@@ -67,14 +67,17 @@
 @media screen and (max-width: 480px) {
 
 .form_container {
-    max-width: 200px;
+    max-width: 230px;
     margin: 0 auto;
     border-radius: 15px;
     flex-direction: row;
-
+    align-items: center;
+    justify-content: center;
 }
 
-
+.form_container h5 {
+    text-align: center;
+}
 
 .form_container input[type='submit'] {
     border-radius: 15px;
@@ -83,21 +86,23 @@
     max-width: 90px;
     min-height: 2em;
     width: 60%;
-    margin: 0px 28% 10px 28%;
+    margin: 0px 30% 10px 30%;
     display: inline;
     cursor: pointer;
     font-size: 14px;
     font-weight: bold;
+    align-items: center;
+    justify-content: center;
 
 }
 
 .form_container section {
-    background-color: #0b3a53;
+    background-color: #2e97b4;
     background: transparent;
 }
 
 .form_container div, h2, form  {
-    background-color: #9ab5b6;
+    background-color: transparent;
 
 }
 
@@ -110,7 +115,7 @@
 
 .form_container   h2 {
     text-align:  center;
-    margin-top: 12vh;
+    margin-top: 6vh;
     margin-bottom: 0px;
     padding: 9px;
     font-size: 18px;

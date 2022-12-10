@@ -1,5 +1,5 @@
 import { useState, useContext } from 'react'
-
+import { Link } from 'react-router-dom'
 import Input from '../../form/Input'
 import '../../form/Form.module.css'
 import styles from '../../form/Form.module.css'
@@ -53,6 +53,7 @@ function Register() {
                     <input type="submit" value="Cadastrar"/>
                 </form>
             </div>
+            <h5>Já possui conta? <Link to='/login'>Entrar</Link></h5>
         </section>
     )
 }
