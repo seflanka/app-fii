@@ -28,17 +28,14 @@ function Footer() {
                         <li>
                             <Link to='/proventos'><img src={proventos} alt="proventos"/> Proventos</Link>
                         </li>
-                        <li className={styles.botao_cadastro_content}>
-                            
+                        <li className={styles.botao_cadastro_content}>                            
                             <Link to='/cadastro'><h1 className={styles.botao_cadastro}>+</h1></Link>
-                            
-
                         </li>
                         <li>
                             <Link rel="stylesheet" type="text/css" href={grafico} to='/analise'><img src={grafico} alt="grafico"/>Analise</Link>
                         </li>
                         <li>
-                            <Link rel="stylesheet" type="text/css" href={usuario} to='/analise'><img src={usuario} alt="grafico"/>Profile</Link>
+                            <Link rel="stylesheet" type="text/css" href={usuario} to='/profile'><img src={usuario} alt="grafico"/>Profile</Link>
                         </li>
                     </div> 
                     <div className={styles.navbar_content}>

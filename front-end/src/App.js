@@ -19,6 +19,7 @@ import Carteira from './components/pages/Cadastros/Carteira'
 import Remove from './components/pages/Cadastros/Remove'
 import Analise from './components/pages/Cadastros/Analise'
 import AnaliseCodigo from './components/pages/Cadastros/AnaliseCodigo'
+import Profile from './components/pages/Cadastros/Profile'
 
 
 // Context
@@ -33,6 +34,7 @@ function App() {
       <Container>
         <Routes>
           <Route path='/login' element={<Login/>} />
+          <Route path='/Profile' element={<Profile/>} />
           <Route path='/Analise' element={<Analise />}/>
           <Route path='/analise/:codigo' element={<AnaliseCodigo />}/>
           <Route path='/Cadastro' element={<Cadastro />}/>
